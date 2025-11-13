@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Шапка сайта с картинкой */
+header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Навигационное меню СЛЕВА */
+nav {
+    width: 250px;
+    float: left;
+    background: #34495e;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    transition: background 0.3s;
+    border-left: 4px solid transparent;
+}
+
+nav ul li a:hover {
+    background: #2c3e50;
+    border-left: 4px solid #3498db;
+}
+
+/* Основное содержимое СПРАВА */
+main {
+    margin-left: 270px;
+    padding: 30px;
+    background: white;
+    min-height: calc(100vh - 120px);
+}
+
+/* Подвал сайта */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-left: 250px;
+}
+
+/* Заголовки */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    margin: 25px 0 15px 0;
+    font-size: 1.4em;
+}
+
+/* Списки */
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Таблица */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+/* Форматирование текста */
+strong {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+em {
+    color: #27ae60;
+    font-style: italic;
+}
+
+u {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+s {
+    color: #7f8c8d;
+    text-decoration: line-through;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
